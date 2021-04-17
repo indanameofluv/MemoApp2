@@ -8,7 +8,7 @@ function Hello(props) {
         <View>
             <Text style={[styles.text, style]}>
                 { `Hello ${children}${bang ? '!' : ''}` }
-                </Text>
+            </Text>
         </View>
     );
 }
