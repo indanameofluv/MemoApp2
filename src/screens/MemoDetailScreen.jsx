@@ -24,7 +24,7 @@ export default function MemoDetailScreen(props) {
         style={{ top: 60, bottom: 'auto' }}
         name="edit-2"
         onPress={() => { navigation.navigate('MemoEdit'); }}
-        />
+      />
     </View>
   );
 }
